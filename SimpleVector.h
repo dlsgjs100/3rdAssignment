@@ -52,7 +52,7 @@ public:
 			currentSize--;
 		}
 	}
-
+	
 	// - resize는 정수 하나를 인자로 받습니다.  해당 정수가 현재 배열의 크기보다 작으면 아무 동작도 하지 않습니다. 만약 현재 배열보다 크기가 크면 해당 값만큼 크기를 재할당 합니다.(기존 원소는 그대로 있어야 합니다.)
 	void resize(int newCapacity) {
 		if (newCapacity > currentCapacity) {
